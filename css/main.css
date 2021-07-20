@@ -1,0 +1,98 @@
+h1{
+  font-family: "Franklin Gothic";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+}
+
+.title-card{
+  background-color: #f07f09;
+  color: white;
+}
+
+.card{
+  border-radius: 0 !important;
+  border-width: 0 !important;
+}
+
+.card-header{
+  background-color: #f07f09 !important;
+  border-radius: 0 !important;
+  border-width: 0 !important;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.nav-link.active{
+  color: black !important;
+}
+
+.img-glow {
+  -webkit-filter: drop-shadow(0 0 0.3rem white);
+  filter: drop-shadow(0 0 0.3rem white);
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.my-card-width{
+  width: 60rem;
+  max-width: unset;
+}
+
+.carousel-caption{
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.carousel-indicators{
+  margin-bottom: 0 !important;
+}
+
+.custom-carousel-image{
+  max-height: 28rem;
+  object-fit: contain;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: unset !important;
+}
+
+.btn-custom
+{
+  background-color: #f07f09;
+  color:#FFF;
+  border-color: #f07f09;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open .dropdown-toggle.btn-custom {
+  background-color: #c56907;
+  color:#FFF;
+  border-color: #c56907;
+}
+
+.warning-box{
+  border-radius: 10px;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 62rem) {
+  .my-card-width{
+    width: calc(100% - 3rem);
+    max-width: 60rem;
+  }
+}
