@@ -1,8 +1,12 @@
-h1{
+h2{
   font-family: "Franklin Gothic";
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 500;
+}
+
+h1{
+  font-size: 3em;
 }
 
 .title-card{
@@ -58,7 +62,7 @@ h1{
 }
 
 .custom-carousel-image{
-  max-height: 28rem;
+  max-height: calc(100vh - 36.2rem);
   object-fit: contain;
 }
 
